@@ -1,0 +1,73 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gump;Forrest;;Mr.;
+FN:Forrest Gump
+ORG:Bubba Gump Shrimp Co.
+TITLE:Shrimp Man
+PHOTO;VALUE#URI;TYPE#GIF:http://www.example.com/dir_photos/my_photo.gif
+TEL;TYPE#WORK,VOICE:(111) 555-1212
+TEL;TYPE#HOME,VOICE:(404) 555-1212
+GEO:37.144534;-122.264581
+ADR;TYPE#WORK,PREF:;;100 Waters Edge;Baytown;LA;30314;United States of America
+LABEL;TYPE#WORK,PREF:100 Waters Edge\nBaytown\, LA 30314\nUnited States of America
+ADR;TYPE#HOME:;;42 Plantation St.;Baytown;LA;30314;United States of America
+LABEL;TYPE#HOME:42 Plantation St.\nBaytown\, LA 30314\nUnited States of America
+EMAIL:forrestgump@example.com
+REV:2008-04-24T19:52:43Z
+LANG:en-US
+TZ:-05:00
+NOTE:This number is operational 0800 to 1730 EST\, Mon-Fri.
+NOTE:This number is operational 2322 to 1720 EST\, Sun-Tue.
+URL:http://www.evenx.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+BDAY;VALUE=DATE:1963-09-21
+N:Stenerson;Derik;;;
+FN:Derik Stenerson
+ORG:Microsoft Corporation
+ADR;TYPE=WORK,POSTAL,PARCEL:;;One Microsoft Way;Redmond;WA;98052-6399;USA
+TEL;TYPE=WORK,MSG:+1-425-936-5522
+TEL;TYPE=WORK,FAX:+1-425-936-7329
+EMAIL;TYPE=INTERNET:deriks@Microsoft.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ganguly;Anik;;;
+FN:Anik Ganguly
+ORG: Open Text Inc.
+ADR;TYPE=WORK,POSTAL,PARCEL:;Suite 101;38777 West Six Mile Road;Livonia;MI;48152;USA
+TEL;TYPE=WORK,MSG:+1-734-542-5955
+EMAIL;TYPE=INTERNET:ganguly@acm.org
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Moskowitz;Robert;;;;
+FN:Robert Moskowitz
+EMAIL;TYPE=INTERNET:rgm-ietf@htt-consult.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Doe;John;;;
+FN:John Doe
+ORG:Example.com Inc.;
+TITLE:Imaginary test person
+EMAIL;type=INTERNET;type=WORK;type=pref:johnDoe@example.org
+TEL;type=WORK;type=pref:+1 617 555 1212
+TEL;type=WORK:+1 (617) 555-1234
+TEL;type=CELL:+1 781 555 1212
+TEL;type=HOME:+1 202 555 1212
+item1.ADR;type=WORK:;;2 Enterprise Avenue;Worktown;NY;01111;USA
+item1.X-ABADR:us
+item2.ADR;type=HOME;type=pref:;;3 Acacia Avenue;Hoemtown;MA;02222;USA
+item2.X-ABADR:us
+NOTE:John Doe has a long and varied history\, being documented on more police files that anyone else. Reports of his death are alas numerous.
+item3.URL;type=pref:http\://www.example/com/doe
+item3.X-ABLabel:_$!<HomePage>!$_
+item4.URL:http\://www.example.com/Joe/foaf.df
+item4.X-ABLabel:FOAF
+item5.X-ABRELATEDNAMES;type=pref:Jane Doe
+item5.X-ABLabel:_$!<Friend>!$_
+CATEGORIES:Work,Test group
+X-ABUID:5AD380FD-B2DE-4261-BA99-DE1D1DB52FBE\:ABPerson
+END:VCARD
